@@ -1,0 +1,274 @@
+@charset "utf-8";
+*{
+	margin: 0px;
+	padding: 0px;
+}
+header{
+	background-color:#FFFFFF;
+	padding: 0 41%;
+	height: 100px;
+}
+header div{
+	width: 260px;
+	margin: auto;
+}
+#p1{
+	padding-top: 20px;
+	font-size: 34px;
+	color: rgba(185,127,109,1.00);
+}
+#p2{
+	margin-top: 8px;
+	color: rgba(204,204,204,1.00);
+	font-size: 20px;
+}
+header div img{
+	float: left;
+	margin-right: 20px;
+	padding-top: 22px;
+}
+nav{
+	height: 100px;
+	background-color: white;
+	margin-bottom: 1px;
+}
+#n1{
+	width: 800px;
+	margin: auto;
+}
+#n1>li{
+	display: inline-block;
+	text-align: center;
+	width: 140px;
+}
+#n1 li>a{
+	text-decoration: none;
+	color: rgba(90,90,90,1.00);
+	display: inline-block;
+	font-size: 14px;
+	line-height: 100px;
+	width: 140px;
+	height: 100px;
+}
+#n1 li>a:hover{
+	font-weight: bold;
+	color: rgba(221,70,79,1.00);
+	border-bottom: 1px rgba(221,70,79,1.00) solid;
+}
+ol{
+	display: none;
+	position: absolute;
+	list-style: none;
+	background-color: rgba(221,70,79,1.00);
+}
+ol li{
+	width: 140px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 14px;
+	transition: all 0.5s;
+}
+ol li:hover{
+	background-color: aliceblue;
+	color: rgba(221,70,79,1.00);
+}
+ol>a{
+	text-decoration: none;
+	color: white;
+}
+#N3:hover ol{
+	display: block;
+}
+#id1{
+	background-image: url(../img/background/3.jpg);
+	height: 700px;
+	text-align: center;
+}
+#id1 div:nth-child(1){
+	font-size: 50px;
+	font-weight: bold;
+	color: white;
+	padding-top: 230px;
+	width: 700px;
+	margin: 0px auto;
+}
+#id1 div:nth-child(2){
+	font-size: 14px;
+	padding-top: 18px;
+	color: white;
+	width: 500px;
+	margin: 0px auto;
+}
+#id1 a{
+	margin-top: 60px;
+	display: inline-block;
+	width: 180px;
+	height: 50px;
+	background-color: rgba(221,70,79,1.00);
+	line-height: 50px;
+	text-decoration: none;
+	font-size: 18px;
+	border-bottom-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+	border-top-left-radius: 50px;
+	border-top-right-radius: 50px;
+	color: white;
+	font-weight: bold;
+}
+#id1 a:hover{
+	background-color: rgba(221,70,79,0.80);
+	transition: all 0.5s;
+}
+#id2{
+	text-align: center;
+	height: 500px;
+}
+#id2 img{
+	margin-top: 40px;
+	margin-bottom: 60px;
+}
+#id2 p{
+	color: rgba(136,136,136,1.00);
+	font-size: 16px;
+	margin-top: 6px;
+}
+#id2 a{
+	text-decoration: none;
+	color: red;
+	font-size: 16px;
+}
+#id3{
+	text-align: center;
+	background-color: rgba(219,246,237,1.00);
+	height: 800px;
+}
+#id3>p{
+	font-size: 25px;
+	padding-top: 60px;
+}
+#id3>div{
+	margin: 0px auto;
+	width: 1040px;
+}
+.Df{
+	float: left;
+	text-align: center;
+	width: 280px;
+	margin:30px 30px;
+}
+.Df div{
+	border-bottom-left-radius: 200px;
+	border-bottom-right-radius: 200px;
+	border-top-left-radius: 200px;
+	border-top-right-radius: 200px;
+	background-color: white;
+	width: 200px;
+	height: 200px;
+	margin: auto;
+}
+.Df img{
+	margin-top: 26px;
+}
+.Df p:nth-child(2){
+	font-weight:900;
+	margin: 20px 0px 6px 0px;
+	color: rgba(5,76,52,1.00);
+}
+.Df P:nth-child(3){
+	font-size: 14px;
+	line-height: 20px;
+	color: rgba(111,162,145,1.00);
+}
+.Df img:hover{
+	width: 160px;
+}
+#id4{
+	text-align: center;
+	background-color: white;
+	height: 940px;
+}
+#id4>p{
+	font-size: 25px;
+	margin: 60px auto;
+}
+#id4>div{
+	margin: 0px auto;
+	width: 1200px;
+	height: 640px;
+}
+.Fx{
+	float: left;
+	margin: 8px;
+	width: 280px;
+	height: 300px;
+	border: 2px rgba(242,242,242,1.00) solid;
+}
+.Fx div{
+	width: 278px;
+	height: 216px;
+}
+.Fx p:nth-child(2){
+	font-size: 18px;
+	text-align: left;
+	margin: 10px 0px 10px 20px;
+}
+.Fx p:nth-child(3){
+	font-size: 12px;
+	text-align: left;
+	margin-left: 20px;
+	color: rgba(136,136,136,1.00);
+}
+.Fx:hover{
+	border: 2px rgba(221,70,79,1.00) solid;
+}
+.Fx img:hover{
+	width: 101%;
+	transition: all 0.5s;
+}
+#id4>a{
+	margin-top: 60px;
+	display: inline-block;
+	width: 180px;
+	height: 50px;
+	background-color: rgba(221,70,79,1.00);
+	line-height: 50px;
+	text-decoration: none;
+	font-size: 18px;
+	border-bottom-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+	border-top-left-radius: 50px;
+	border-top-right-radius: 50px;
+	color: white;
+	font-weight: bold;
+}
+#id4>a:hover{
+	background-color: rgba(221,70,79,0.75);
+	transition: all 0.5s;
+}
+footer{
+	text-align: center;
+	background-color:#CCC;
+	height: 300px;
+}
+#id5{
+	padding-top: 30px;
+}
+#id5 p{
+	font-size: 12px;
+	color: rgba(136,136,136,1.00);
+	margin: 6px auto;
+}
+#id6{
+	margin: 40px auto;
+	width: 320px;
+}
+#id6 div{
+	float: left;
+	margin: 0px 20px;
+}
+#id7{
+	position: fixed;
+	top: 80%;
+	left: 98%;
+}
